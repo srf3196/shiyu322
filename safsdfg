@@ -1,0 +1,6 @@
+	computer = random.choice(all_choices)
+	ind = int(input(prompt))
+	player = all_choices[ind]
+	
+	print("Your choice: %s, Computer's choice: %s" % (player, computer))
+	if player == computer:
